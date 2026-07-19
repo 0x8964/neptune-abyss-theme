@@ -1,0 +1,51 @@
+{
+  "name": "neptune-abyss-theme",
+  "displayName": "Neptune Abyss",
+  "description": "A modern, premium and minimalist dark theme for Visual Studio Code. Deep blue accents, clean typography, balanced contrast, no italic syntax.",
+  "version": "0.1.2",
+  "publisher": "0x8964",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "minimal",
+    "modern",
+    "premium",
+    "no italics"
+  ],
+  "galleryBanner": {
+    "color": "#0B0E14",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0x8964/neptune-abyss-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/0x8964/neptune-abyss-theme/issues"
+  },
+  "homepage": "https://github.com/0x8964/neptune-abyss-theme#readme",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Neptune Abyss",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neptune-abyss-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.9.2"
+  }
+}
