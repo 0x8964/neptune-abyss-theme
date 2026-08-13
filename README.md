@@ -2,7 +2,7 @@
 
 🌊 **Neptune Abyss** is a modern, blue-centric dark color theme for Visual Studio Code. It favors readable contrast, calm blues for syntax accents, and unobtrusive UI colors so you can focus on code.
 
-Repository: https://github.com/0x8964/neptune-abyss-theme
+Repository: [https://github.com/0x8964/neptune-abyss-theme](https://github.com/0x8964/neptune-abyss-theme)
 
 ## Highlights
 
@@ -10,11 +10,39 @@ Repository: https://github.com/0x8964/neptune-abyss-theme
 - Clean UI and high readability on large and small displays
 - Comprehensive TextMate and semantic token coverage
 - Lightweight, minimal styles with visual clarity for symbols, types, and UI states
+- No italic syntax by default
+- 580+ workbench colors fully themed
+- 80+ TextMate token rules across JS/TS, Python, Rust, Go, CSS, Markdown, JSON, YAML, TOML and more
 
-## Files
+## Core Palette
 
-- Theme source: [themes/neptune-abyss-color-theme.json](themes/neptune-abyss-color-theme.json)
-- Extension manifest: [package.json](package.json)
+| Role              | Hex        |
+|-------------------|------------|
+| Primary Blue      | `#58A6FF`  |
+| Soft Blue         | `#79C0FF`  |
+| Pale Blue         | `#BFDFFF`  |
+| Cyan Accent       | `#56B6C2`  |
+| Purple Blue       | `#7AA2F7`  |
+| Sky Blue          | `#9CDCFE`  |
+| Light Blue        | `#82AAFF`  |
+| Aqua              | `#7DCFFF`  |
+| Blue              | `#61AFEF`  |
+| Muted             | `#9CA3AF`  |
+| Error             | `#DE5F6A`  |
+| Background        | `#0B0F16`  |
+| Surface           | `#121A26`  |
+| Text              | `#E6EDF3`  |
+| White             | `#FFFFFF`  |
+
+## Language Support
+
+- **JavaScript / TypeScript** — functions, methods, arrow functions, types, interfaces, decorators, DOM variables, template expressions
+- **Python** — builtins, magic methods, decorators, f-strings, type hints, match/case, ellipsis
+- **Rust** — types, lifetimes, attributes, macros, match arms, closures, unsafe blocks
+- **Go** — packages, imports, builtins, channels, goroutines, struct tags
+- **CSS / SCSS / Less** — properties, selectors, functions, units, pseudo selectors, at-rules
+- **Markdown** — headings, links, code blocks, lists, bold/italic, quotes, diff markers
+- **JSON / JSONC / TOML / YAML** — keys, values, tags, anchors, aliases
 
 ## Installation
 
@@ -66,8 +94,4 @@ Guidelines:
 
 ## License
 
-This repository is licensed under the MIT License — see [LICENSE](LICENSE) for details.
-
----
-
-If you want an expanded Marketplace-optimized README (gallery tagline, short and long descriptions, screenshot suggestions, tags), or a Romanian translation, tell me which and I’ll prepare it exactly for publishing.
+This repository is licensed under the MIT License — see [LICENSE](https://github.com/0x8964/neptune-abyss-theme/blob/HEAD/LICENSE) for details.
